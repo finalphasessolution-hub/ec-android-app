@@ -1,0 +1,20 @@
+{
+  "name": "ec-android-app",
+  "version": "1.0.0",
+  "description": "EC Android App - JASPAL Single File",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build needed - single file app'",
+    "cap:init": "npx cap init ECApp com.jass.ecapp --web-dir=.",
+    "cap:add-android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:open-android": "npx cap open android"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/android": "^6.0.0"
+  }
+}
