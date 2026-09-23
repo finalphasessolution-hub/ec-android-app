@@ -1,9 +1,7 @@
-{
-  "appId": "com.jass.ecapp",
-  "appName": "EC App",
-  "webDir": ".",
-  "bundledWebRuntime": false,
-  "server": {
-    "androidScheme": "https"
-  }
-}
+(
+echo {
+echo   "appId": "com.saini.insurance",
+echo   "appName": "Saini Insurance",
+echo   "webDir": "www"
+echo }
+) > capacitor.config.json
